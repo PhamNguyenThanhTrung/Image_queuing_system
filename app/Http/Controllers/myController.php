@@ -35,7 +35,7 @@ class MyController extends Controller
 {
     public function showDashboard(Request $r)
     {
-
+sâsasas
         $numbers = Capso::get();
         $numberCount = $numbers->count(); //Đếm số lượng numberid
         $numberCount_dangcho = $numbers->where('TinhTrang', 'Đang chờ')->count(); //Đếm số lượng numberid có trạng thái là "Đang chờ"
